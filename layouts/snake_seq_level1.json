@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826599987,
+    "zoomFactor": 0.5726266434936699,
     "windowMask": false
   },
   "objectsGroups": [
@@ -82,7 +82,7 @@
       "width": 0,
       "x": 147,
       "y": 44,
-      "zOrder": 3,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -105,6 +105,100 @@
       "x": 462,
       "y": 131,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "snake_sequencing_title",
+      "persistentUuid": "f11bf036-8edb-4633-9cb1-88e02bd8379f",
+      "width": 0,
+      "x": 778,
+      "y": 26,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 127,
+      "layer": "",
+      "name": "snake_sequencing_text1",
+      "persistentUuid": "8b666cc6-8e53-4921-bc0d-074e5e3d3874",
+      "width": 572,
+      "x": 662,
+      "y": 83,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "snake_book",
+      "persistentUuid": "9cc1900b-274d-4c63-8541-5edcce6fbf06",
+      "width": 0,
+      "x": 894,
+      "y": 176,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "layer": "",
+      "name": "snake_sequencing_text2",
+      "persistentUuid": "67ac64ae-7129-41bd-93c7-34c0942a2c14",
+      "width": 463,
+      "x": 814,
+      "y": 366,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 270,
+      "layer": "",
+      "name": "snake_novaseq",
+      "persistentUuid": "d51bc8c8-fdae-4d51-a8fe-d0e05cf117ed",
+      "width": 174,
+      "x": 630,
+      "y": 277,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "layer": "",
+      "name": "NewSequence",
+      "persistentUuid": "fd41a0c8-ae10-4060-832e-7389e6f2a228",
+      "width": 212,
+      "x": 464,
+      "y": 576,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -691,7 +785,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "snake_player",
       "type": "Sprite",
@@ -715,8 +809,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 16.5,
+                    "y": 16.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -727,20 +821,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 13,
                         "y": 0
                       },
                       {
-                        "x": 33,
+                        "x": 20.5,
                         "y": 0
                       },
                       {
-                        "x": 33,
-                        "y": 33
+                        "x": 21.5,
+                        "y": 1.5
                       },
                       {
-                        "x": 0,
-                        "y": 33
+                        "x": 12,
+                        "y": 1.5
                       }
                     ]
                   ]
@@ -788,19 +882,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 12.5
+                        "x": 7.5,
+                        "y": 8.5
                       },
                       {
-                        "x": 13.5,
-                        "y": 12.5
+                        "x": 14.5,
+                        "y": 8.5
                       },
                       {
-                        "x": 19.5,
+                        "x": 17,
                         "y": 30
                       },
                       {
-                        "x": 3,
+                        "x": 4.5,
                         "y": 30
                       }
                     ]
@@ -1035,6 +1129,283 @@
         "characterSize": 30,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "snake_child",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "child",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "child",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16.5,
+                    "y": 16.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 31.5
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 31.5
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 33
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "snake_sequencing_title",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "C'est quoi le séquençage ?",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "C'est quoi le séquençage ?",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "245;166;35"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "snake_sequencing_text1",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[color=orange]Le séquençage permet de lire le livre d'instruction qui est l'[b]ADN[/b]. [/color]\n[color=orange]L'ADN est composée des lettres [/color] [color=#00F6FF]\"A\"[/color], [color=#F67E7E]\"T\"[/color], [color=#D000FF]\"C\"[/color],[color=orange] et[/color] [color=#00FF3B]\"G\"[/color]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "snake_book",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "book",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "book",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 1
+                      },
+                      {
+                        "x": 106,
+                        "y": 1
+                      },
+                      {
+                        "x": 106,
+                        "y": 99
+                      },
+                      {
+                        "x": 5,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "snake_sequencing_text2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Pour lire l'ADN, les scientifiques utilisent des machines spéciales appelées séquenceurs. ",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "245;166;35",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "snake_novaseq",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "novaseq.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 7
+                      },
+                      {
+                        "x": 282,
+                        "y": 7
+                      },
+                      {
+                        "x": 282,
+                        "y": 454
+                      },
+                      {
+                        "x": 15,
+                        "y": 454
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSequence",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Ta séquence d'ADN:\n\n",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "245;166;35",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1066,6 +1437,27 @@
       },
       {
         "objectName": "snake_score_object"
+      },
+      {
+        "objectName": "snake_child"
+      },
+      {
+        "objectName": "snake_sequencing_title"
+      },
+      {
+        "objectName": "snake_sequencing_text1"
+      },
+      {
+        "objectName": "snake_book"
+      },
+      {
+        "objectName": "snake_sequencing_text2"
+      },
+      {
+        "objectName": "snake_novaseq"
+      },
+      {
+        "objectName": "NewSequence"
       }
     ]
   },
@@ -1143,6 +1535,156 @@
             "snake_lights",
             "=",
             "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"T\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#F67E7E]T[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#00F6FF]A[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"G\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#00FF3B]G[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"C\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#D000FF]C[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
           ]
         }
       ]
@@ -1318,7 +1860,7 @@
           "parameters": [
             "snake_player",
             "-",
-            "6"
+            "4"
           ]
         }
       ]
@@ -1346,7 +1888,7 @@
           "parameters": [
             "snake_player",
             "+",
-            "6"
+            "4"
           ]
         }
       ]
@@ -1374,7 +1916,7 @@
           "parameters": [
             "snake_player",
             "-",
-            "6"
+            "4"
           ]
         }
       ]
@@ -1402,7 +1944,7 @@
           "parameters": [
             "snake_player",
             "+",
-            "6"
+            "4"
           ]
         }
       ]
@@ -1511,6 +2053,283 @@
             "snake_player",
             "=",
             "700"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "snake_player",
+            "snake_group_letters",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "snake_group_letters",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "snake_clones",
+            "+",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "snake_score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "snake_score_object",
+            "=",
+            "\"Score: \" + GlobalVariableString(snake_score)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "snake_random_value",
+            "=",
+            "Random(GlobalVariableChildCount(snake_group1)-1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_letter",
+            "=",
+            "GlobalVariableString(snake_group1[GlobalVariable(snake_random_value)])"
+          ]
+        },
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "snake_group_letters",
+            "GlobalVariableString(snake_random_letter)",
+            "RandomInRange(40,400)",
+            "RandomInRange(20,680)",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"T\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#F67E7E]T[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"A\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#00F6FF]A[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"G\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#00FF3B]G[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "GlobalVariableString(snake_random_letter)",
+                "=",
+                "\"C\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "snake_total_sequence",
+                "+",
+                "\"[color=#D000FF]C[/color]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "NewSequence",
+                "=",
+                "\"Ta séquence d'ADN:\" + NewLine() + GlobalVariableString(snake_total_sequence)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ShadowClones::AnimateShadowClones"
+          },
+          "parameters": [
+            "",
+            "snake_player",
+            "snake_child",
+            "GlobalVariable(snake_clones)",
+            "1",
+            "0",
+            "",
+            "\"\"",
+            "3",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -1562,7 +2381,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "child",
+            "snake_child",
             "\"0;246;255\""
           ]
         },
@@ -1624,7 +2443,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "child",
+            "snake_child",
             "\"246;126;126\""
           ]
         },
@@ -1686,7 +2505,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "child",
+            "snake_child",
             "\"208;0;255\""
           ]
         },
@@ -1748,7 +2567,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "child",
+            "snake_child",
             "\"0;255;59\""
           ]
         },
@@ -1764,18 +2583,17 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "BuiltinCommonInstructions::CompareNumbers"
           },
           "parameters": [
-            "snake_player",
-            "snake_group_letters",
-            "",
-            "",
-            ""
+            "GlobalVariable(snake_score)",
+            "=",
+            "5"
           ]
         },
         {
@@ -1788,92 +2606,54 @@
       "actions": [
         {
           "type": {
-            "value": "Delete"
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "snake_group_letters",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "clones",
-            "+",
-            "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "snake_score",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "snake_score_object",
+            "snake_background",
+            "Opacity",
             "=",
-            "\"Score: \" + GlobalVariableString(snake_score)"
+            "0"
           ]
         },
         {
           "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "snake_random_value",
-            "=",
-            "Random(GlobalVariableChildCount(snake_group1)-1)"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "snake_random_letter",
-            "=",
-            "GlobalVariableString(snake_group1[GlobalVariable(snake_random_value)])"
-          ]
-        },
-        {
-          "type": {
-            "value": "CreateByName"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
-            "snake_group_letters",
-            "GlobalVariableString(snake_random_letter)",
-            "RandomInRange(40,410)",
-            "RandomInRange(20,700)",
-            ""
+            "\"UI\""
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "snake_player",
+            "snake_child",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"snake_death_scene\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1903,6 +2683,23 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
       "effects": []
     }
   ],

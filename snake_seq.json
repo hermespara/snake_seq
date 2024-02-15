@@ -441,6 +441,117 @@
         "name": "Picture5",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "child.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "child.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/child.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "child",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "book_dna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "book_dna.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "book.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "book.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/book.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "book",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "novaseq.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "novaseq.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/novaseq.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "novaseq",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/novaseq2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "novaseq2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -484,8 +595,8 @@
     {
       "folded": true,
       "name": "snake_random_letter",
-      "type": "number",
-      "value": 0
+      "type": "string",
+      "value": ""
     },
     {
       "name": "snake_color_letter",
@@ -514,16 +625,70 @@
       "name": "snake_score",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "snake_clones",
+      "type": "number",
+      "value": 6
+    },
+    {
+      "folded": true,
+      "name": "snake_total_sequence",
+      "type": "string",
+      "value": "\""
+    },
+    {
+      "name": "snake_letters_colors",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "[color=#00FF3B]G[/color]"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "[color=#00F6FF]A[/color]"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "[color=#D000FF]C[/color]"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "[color=#F67E7E]T[/color]"
+        }
+      ]
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/snake_seq_level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/snake_death_scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/snake_alignment_scene"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shadowclones"
