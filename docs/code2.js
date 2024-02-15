@@ -438,7 +438,8 @@ for (var i = 0, k = 0, l = gdjs.snake_95alignment_95sceneCode.GDsnake_9595button
 }
 gdjs.snake_95alignment_95sceneCode.GDsnake_9595button_9595gene2Objects1.length = k;
 if (isConditionTrue_0) {
-}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "snake_final_scene", false);
+}}
 
 }
 
