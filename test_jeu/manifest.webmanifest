@@ -1,0 +1,12 @@
+{
+  "name": "snake_seq",
+  "short_name": "snake_seq",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
