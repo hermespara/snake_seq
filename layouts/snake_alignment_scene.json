@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 363,
+      "height": 429,
       "layer": "",
       "name": "NewBBText",
       "persistentUuid": "9c6472d6-e8db-400e-b39e-d89bb5e8fc19",
-      "width": 443,
-      "x": 59,
-      "y": 87,
+      "width": 399,
+      "x": 198,
+      "y": 80,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,14 +44,110 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 117,
+      "height": 143,
       "layer": "",
       "name": "snake_random_gene1",
       "persistentUuid": "e0262d90-6ba5-409c-b29c-40b8eeddce43",
-      "width": 504,
-      "x": 743,
-      "y": 49,
+      "width": 401,
+      "x": 690,
+      "y": 87,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1446,
+      "layer": "",
+      "name": "snake_book_sequence",
+      "persistentUuid": "eaf1c3c8-b1cd-4c20-bdd8-b99ecf427dea",
+      "width": 1429,
+      "x": -66,
+      "y": -354,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 155,
+      "layer": "",
+      "name": "snake_random_gene2",
+      "persistentUuid": "5b84cb6a-1d40-4de4-8b95-2bc16260c4cd",
+      "width": 402,
+      "x": 697,
+      "y": 232,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 137,
+      "layer": "",
+      "name": "snake_random_gene3",
+      "persistentUuid": "2b201269-66e1-4de9-bd20-aaee607f49bb",
+      "width": 412,
+      "x": 703,
+      "y": 386,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 23,
+      "height": 34,
+      "layer": "",
+      "name": "snake_button_gene3",
+      "persistentUuid": "8a585957-fe55-4c3e-8831-25715ea0397c",
+      "width": 126,
+      "x": 693,
+      "y": 378,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 23,
+      "height": 35,
+      "layer": "",
+      "name": "snake_button_gene2",
+      "persistentUuid": "3ce55278-bcb7-4b22-ade9-482efdc2b849",
+      "width": 124,
+      "x": 691,
+      "y": 223,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 36,
+      "layer": "",
+      "name": "snake_button_gene",
+      "persistentUuid": "89a93e0c-11a5-4fc6-bcc8-bfa033810955",
+      "width": 130,
+      "x": 696,
+      "y": 80,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -66,9 +162,9 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Bravo",
+        "text": "Bravo !!!",
         "opacity": 255,
-        "fontSize": 40,
+        "fontSize": 30,
         "visible": true,
         "color": "0;0;0",
         "fontFamily": "Arial",
@@ -84,7 +180,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Sequence: ",
+        "text": "Gene 1 : ",
         "opacity": 255,
         "fontSize": 20,
         "visible": true,
@@ -92,6 +188,352 @@
         "fontFamily": "Arial",
         "align": "left",
         "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "snake_book_sequence",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "book_004",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "book_004",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 1200
+                      },
+                      {
+                        "x": 0,
+                        "y": 1200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "snake_random_gene2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Gene 2: \n",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "snake_random_gene3",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Gene 3:\n",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "snake_button_gene",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Gene 1",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Gene 1",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "snake_button_gene2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Gene 2",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Gene 2",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+      "name": "snake_button_gene3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Gene 3",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Gene 3",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Blue Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
       }
     }
   ],
@@ -103,6 +545,24 @@
       },
       {
         "objectName": "snake_random_gene1"
+      },
+      {
+        "objectName": "snake_book_sequence"
+      },
+      {
+        "objectName": "snake_random_gene3"
+      },
+      {
+        "objectName": "snake_random_gene2"
+      },
+      {
+        "objectName": "snake_button_gene"
+      },
+      {
+        "objectName": "snake_button_gene2"
+      },
+      {
+        "objectName": "snake_button_gene3"
       }
     ]
   },
@@ -127,7 +587,546 @@
           "parameters": [
             "NewBBText",
             "=",
-            "\"Bravo!!!\" + NewLine() + \n\"Tu as réussi à séquencer la séquence suivante:\" + NewLine() + GlobalVariableString(snake_total_sequence) + \"\\\"\""
+            "\"Bravo!!!!\" + NewLine() + \"Tu as séquencé l'ADN suivant:\" + NewLine() + GlobalVariableString(snake_total_sequence) + \"\\\"\" + NewLine() + \"Trouvez votre séquence dans les gènes suivants:\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "=",
+            "GlobalVariableString(snake_total_sequence)+ GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence2",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence3",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence4",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "snake_random_gene1",
+            "=",
+            "\"Gene 1:\" + NewLine() + GlobalVariableString(snake_random_sequence) +   \"\\\"   \"   + GlobalVariableString(snake_random_sequence2) + \"\\\"\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence5",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "snake_random_gene1",
+            "=",
+            "\"Gene1:\" + NewLine() + GlobalVariableString(snake_random_sequence) +   \"\\\"   \"   + GlobalVariableString(snake_random_sequence2) +   \"\\\"   \" + GlobalVariableString(snake_random_sequence3) + \"\\\"   \" + GlobalVariableString(snake_random_sequence4) +   \"\\\"   \"+ GlobalVariableString(snake_random_sequence5) +   \"\\\"   \""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence2",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence3",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence4",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence5",
+            "=",
+            "\"\\\"\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence2",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence3",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence4",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence5",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "snake_random_gene2",
+            "=",
+            "\"Gene 2:\" + NewLine() + GlobalVariableString(snake_random_sequence) +   \"\\\"   \"   + GlobalVariableString(snake_random_sequence2) +   \"\\\"   \" + GlobalVariableString(snake_total_sequence) + \"\\\"   \" + GlobalVariableString(snake_random_sequence4) +   \"\\\"   \"+ GlobalVariableString(snake_random_sequence5) +   \"\\\"   \""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence2",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence3",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence4",
+            "=",
+            "\"\\\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence5",
+            "=",
+            "\"\\\"\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence2",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence3",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence4",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "GlobalVariable(snake_score) + 1",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "snake_random_sequence5",
+            "+",
+            "GlobalVariableString(snake_letters_colors[RandomInRange(0,3)])"
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "snake_random_gene3",
+            "=",
+            "\"Gene 3:\" + NewLine() + GlobalVariableString(snake_random_sequence) +   \"\\\"   \"   + GlobalVariableString(snake_random_sequence2) +   \"\\\"   \" + GlobalVariableString(snake_random_sequence3) + \"\\\"   \" + GlobalVariableString(snake_random_sequence4) +   \"\\\"   \"+ GlobalVariableString(snake_random_sequence5) +   \"\\\"   \""
           ]
         }
       ]
@@ -137,47 +1136,15 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BBText::SetBBText"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "snake_random_gene1",
-            "=",
-            "Choose::RandomString(\"[color=#D000FF]C[/color], [color=#00FF3B]G[/color]\")"
+            "snake_button_gene2",
+            ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "10",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "BBText::SetBBText"
-          },
-          "parameters": [
-            "snake_random_gene1",
-            "=",
-            "Choose::RandomString(\"[color=#D000FF]C[/color], [color=#00FF3B]G[/color]\")"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -233,12 +1200,28 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     }
   ]
 }
