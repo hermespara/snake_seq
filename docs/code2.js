@@ -80,7 +80,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10029780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10362236);
 }
 if (isConditionTrue_0)
 {
@@ -109,7 +109,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9452372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10364036);
 }
 if (isConditionTrue_0)
 {
@@ -128,7 +128,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10155188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10365524);
 }
 if (isConditionTrue_0)
 {
@@ -158,7 +158,7 @@ gdjs.copyArray(runtimeScene.getObjects("snake_random_gene1"), gdjs.snake_95align
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9152204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10367148);
 }
 if (isConditionTrue_0)
 {
@@ -181,7 +181,7 @@ gdjs.copyArray(runtimeScene.getObjects("snake_random_gene1"), gdjs.snake_95align
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9453180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10369268);
 }
 if (isConditionTrue_0)
 {
@@ -218,7 +218,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9526492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10373892);
 }
 if (isConditionTrue_0)
 {
@@ -237,7 +237,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10539140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10375412);
 }
 if (isConditionTrue_0)
 {
@@ -256,7 +256,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8668732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10376932);
 }
 if (isConditionTrue_0)
 {
@@ -275,7 +275,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9451668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10378452);
 }
 if (isConditionTrue_0)
 {
@@ -295,7 +295,7 @@ gdjs.copyArray(runtimeScene.getObjects("snake_random_gene2"), gdjs.snake_95align
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9510540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10379972);
 }
 if (isConditionTrue_0)
 {
@@ -332,7 +332,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9399524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10341276);
 }
 if (isConditionTrue_0)
 {
@@ -351,7 +351,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9511548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10327772);
 }
 if (isConditionTrue_0)
 {
@@ -370,7 +370,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8885068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10371484);
 }
 if (isConditionTrue_0)
 {
@@ -389,7 +389,7 @@ for (let repeatIndex2 = 0;repeatIndex2 < repeatCount2;++repeatIndex2) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(7883324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10338044);
 }
 if (isConditionTrue_0)
 {
@@ -409,7 +409,7 @@ gdjs.copyArray(runtimeScene.getObjects("snake_random_gene3"), gdjs.snake_95align
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9279700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10323252);
 }
 if (isConditionTrue_0)
 {

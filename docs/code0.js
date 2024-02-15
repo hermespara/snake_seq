@@ -523,7 +523,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.snake_95seq_95level1Code.mapOfGDgdjs_9546snake_959595seq_959595level1Code_9546GDsnake_95959595playerObjects1Objects, gdjs.snake_95seq_95level1Code.mapOfGDgdjs_9546snake_959595seq_959595level1Code_9546GDAObjects1ObjectsGDgdjs_9546snake_959595seq_959595level1Code_9546GDTObjects1ObjectsGDgdjs_9546snake_959595seq_959595level1Code_9546GDCObjects1ObjectsGDgdjs_9546snake_959595seq_959595level1Code_9546GDGObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9413900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10273420);
 }
 }
 if (isConditionTrue_0) {
