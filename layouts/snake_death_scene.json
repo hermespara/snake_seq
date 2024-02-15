@@ -101,7 +101,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Score: ",
-      "font": "",
+      "font": "Sniglet-ExtraBold2.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -124,7 +124,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Score: ",
-        "font": "",
+        "font": "Sniglet-ExtraBold2.ttf",
         "textAlignment": "left",
         "characterSize": 50,
         "color": "0;0;0"
@@ -143,7 +143,7 @@
         "fontSize": 50,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Sniglet-ExtraBold3.ttf",
         "align": "left",
         "wordWrap": true
       }

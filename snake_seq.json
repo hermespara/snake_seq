@@ -638,6 +638,90 @@
         "name": "fireworks-png-30603.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sniglet-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-Regular2.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-Regular3.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-Regular3.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold2.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold3.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold3.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Sniglet-ExtraBold4.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold4.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold5.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold5.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Sniglet-ExtraBold6.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold6.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold7.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold7.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold8.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold8.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold9.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold9.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

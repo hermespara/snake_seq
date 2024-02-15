@@ -60,7 +60,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewText",
+      "name": "snake_felicitations",
       "persistentUuid": "a43fb322-4c63-4068-b30f-cf531d7e3a0d",
       "width": 0,
       "x": 406,
@@ -196,7 +196,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "NewText",
+      "name": "snake_felicitations",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -204,7 +204,7 @@
       "effects": [],
       "behaviors": [],
       "string": "!!!  Félicitations  !!! \n\nTu as séquencé le gène 2",
-      "font": "",
+      "font": "Sniglet-ExtraBold9.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -227,7 +227,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "!!!  Félicitations  !!! \n\nTu as séquencé le gène 2",
-        "font": "",
+        "font": "Sniglet-ExtraBold9.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "208;2;27"
@@ -244,7 +244,7 @@
         "objectName": "snake_fireworks2"
       },
       {
-        "objectName": "NewText"
+        "objectName": "snake_felicitations"
       }
     ]
   },

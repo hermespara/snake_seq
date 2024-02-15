@@ -167,7 +167,7 @@
         "fontSize": 30,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Sniglet-ExtraBold4.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -185,7 +185,7 @@
         "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Sniglet-ExtraBold5.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -264,7 +264,7 @@
         "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Sniglet-ExtraBold7.ttf",
         "align": "left",
         "wordWrap": true
       }
@@ -282,7 +282,7 @@
         "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "Sniglet-ExtraBold6.ttf",
         "align": "left",
         "wordWrap": true
       }
