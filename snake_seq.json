@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/home/hermes/Desktop/GD/test_jeu",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
